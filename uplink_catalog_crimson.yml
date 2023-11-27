@@ -1,0 +1,65 @@
+- type: storePreset
+  id: StorePresetUplink
+  storeName: Uplink
+  categories:
+  - Sales
+  - UplinkWeapons
+  - UplinkAmmo
+  - UplinkExplosives
+  - UplinkMisc
+  - UplinkBundles
+  - UplinkTools
+  - UplinkUtility
+  - UplinkImplants
+  - UplinkJob
+  - UplinkArmor
+  - UplinkPointless
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storeCategory
+  id: CrimsonSales
+  name: Алая Распродажа
+  priority: 0
+  
+  
+   #Е-Ворд, 8 ТК
+   - type: listing
+  id: UplinkEsword
+  name: uplink-esword-name
+  description: uplink-esword-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
+  productEntity: EnergySword
+  cost:
+    Telecrystal: 5
+  categories:
+  - CrimsonSales
+  
+  
+  #ДаблСворд 20 ТК
+  - type: listing
+  id: UplinkEswordDouble
+  name: uplink-esword-double-name
+  description: uplink-esword-double-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
+  productEntity: EnergySwordDouble
+  cost:
+    Telecrystal: 90
+  categories:
+  - CrimsonSales
+  
+  
+  #Сумска с C4, 12 ТК
+  - type: listing
+  id: UplinkC4Bundle
+  name: uplink-c4-bundle-name
+  description: uplink-c4-bundle-desc
+  productEntity: ClothingBackpackDuffelSyndicateC4tBundle
+  cost:
+    Telecrystal: 6 #you're buying bulk so its a 25% discount
+  categories:
+  - CrimsonSales
+  
+  
+  #
+  
