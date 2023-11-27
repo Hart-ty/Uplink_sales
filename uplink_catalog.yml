@@ -1,0 +1,95 @@
+- type: storePreset
+  id: StorePresetUplink
+  storeName: Uplink
+  categories:
+  - Sales
+  - UplinkWeapons
+  - UplinkAmmo
+  - UplinkExplosives
+  - UplinkMisc
+  - UplinkBundles
+  - UplinkTools
+  - UplinkUtility
+  - UplinkImplants
+  - UplinkJob
+  - UplinkArmor
+  - UplinkPointless
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storeCategory
+  id: Sales
+  name: Скидки
+  priority: 0
+
+- type: listing
+  id: UplinkSyndieMiniBomb
+  name: uplink-mini-bomb-name
+  description: uplink-mini-bomb-desc
+  productEntity: SyndieMiniBomb
+  cost:
+    Telecrystal: 4
+  categories:
+    - Sales
+
+- type: listing
+  id: UplinkEmag
+  name: uplink-emag-name
+  description: uplink-emag-desc
+  productEntity: Emag
+  cost:
+    Telecrystal: 6
+  categories:
+  - Sales
+
+- type: listing
+  id: UplinkAgentIDCard
+  name: uplink-agent-id-card-name
+  description: uplink-agent-id-card-desc
+  productEntity: AgentIDCard
+  cost:
+    Telecrystal: 2
+  categories:
+  - Sales
+
+- type: listing
+  id: UplinkgClothingThievingGloves
+  name: uplink-clothing-thieving-gloves-name
+  description: uplink-clothing-thieving-gloves-desc
+  productEntity: ThievingGloves
+  cost:
+    Telecrystal: 2
+  categories:
+  - Sales
+
+- type: listing
+  id: UplinkClothingShoesBootsMagSyndie
+  name: uplink-clothing-shoes-boots-mag-syndie-name
+  description: uplink-clothing-shoes-boots-mag-syndie-desc
+  productEntity: ClothingShoesBootsMagSyndie
+  cost:
+    Telecrystal: 2
+  categories:
+  - Sales
+
+- type: listing
+  id: UplinkDnaScramblerImplant
+  name: uplink-dna-scrambler-implanter-name
+  description: uplink-dna-scrambler-implanter-desc
+  icon: { sprite: /Textures/Mobs/Species/Human/parts.rsi, state: full }
+  productEntity: DnaScramblerImplanter
+  cost:
+    Telecrystal: 5
+  categories:
+    - Sales
+
+- type: listing
+  id: UplinkFreedomImplanter
+  name: uplink-freedom-implanter-name
+  description: uplink-freedom-implanter-desc
+  icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: freedom }
+  productEntity: FreedomImplanter
+  cost:
+    Telecrystal: 3
+  categories:
+    - Sales
