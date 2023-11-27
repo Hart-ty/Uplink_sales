@@ -22,6 +22,8 @@
   name: Скидки
   priority: 0
 
+
+ #Мини бомба Синдиката, 6 ЬК
 - type: listing
   id: UplinkSyndieMiniBomb
   name: uplink-mini-bomb-name
@@ -32,6 +34,8 @@
   categories:
     - Sales
 
+
+ #ЕМАГ, 8 ТК
 - type: listing
   id: UplinkEmag
   name: uplink-emag-name
@@ -42,6 +46,8 @@
   categories:
   - Sales
 
+
+ #ID Карта агента, 3 ТК
 - type: listing
   id: UplinkAgentIDCard
   name: uplink-agent-id-card-name
@@ -52,6 +58,8 @@
   categories:
   - Sales
 
+
+  #Воровские перчатки, 4 ТК
 - type: listing
   id: UplinkgClothingThievingGloves
   name: uplink-clothing-thieving-gloves-name
@@ -62,6 +70,8 @@
   categories:
   - Sales
 
+
+#Кровавые магнитные ботинки, 4 ТК
 - type: listing
   id: UplinkClothingShoesBootsMagSyndie
   name: uplink-clothing-shoes-boots-mag-syndie-name
@@ -72,6 +82,7 @@
   categories:
   - Sales
 
+ #ДНК Миксер,  10 ТК
 - type: listing
   id: UplinkDnaScramblerImplant
   name: uplink-dna-scrambler-implanter-name
@@ -82,7 +93,9 @@
     Telecrystal: 5
   categories:
     - Sales
-
+    
+    
+ #Имлант свободы, 5 ТК  
 - type: listing
   id: UplinkFreedomImplanter
   name: uplink-freedom-implanter-name
@@ -91,5 +104,17 @@
   productEntity: FreedomImplanter
   cost:
     Telecrystal: 3
+  categories:
+    - Sales
+    
+    
+ #Нечестные перчатки, 5 ТК, так как довольно имбалансные, в рамках Скидок.
+- type: listing
+  id: uplinkRiggedBoxingGloves
+  name: uplink-rigged-boxing-gloves-name
+  description: uplink-rigged-boxing-gloves-desc
+  productEntity: ClothingHandsGlovesBoxingRigged
+  cost:
+    Telecrystal: 7
   categories:
     - Sales
