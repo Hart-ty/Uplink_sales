@@ -2,7 +2,7 @@
   id: StorePresetUplink
   storeName: Uplink
   categories:
-  - Sales
+  - CrimsonSales
   - UplinkWeapons
   - UplinkAmmo
   - UplinkExplosives
@@ -24,7 +24,7 @@
   
   
    #Е-Ворд, 8 ТК
-   - type: listing
+- type: listing
   id: UplinkEsword
   name: uplink-esword-name
   description: uplink-esword-desc
@@ -37,7 +37,7 @@
   
   
   #ДаблСворд 20 ТК
-  - type: listing
+- type: listing
   id: UplinkEswordDouble
   name: uplink-esword-double-name
   description: uplink-esword-double-desc
@@ -50,7 +50,7 @@
   
   
   #Сумска с C4, 12 ТК
-  - type: listing
+- type: listing
   id: UplinkC4Bundle
   name: uplink-c4-bundle-name
   description: uplink-c4-bundle-desc
@@ -61,5 +61,25 @@
   - CrimsonSales
   
   
-  #
+  #МЯУ! 26 ТК
+- type: listing
+  id: UplinkCatEars
+  name: uplink-cat-ears-name
+  description: uplink-cat-ears-desc
+  productEntity: ClothingHeadHatCatEars
+  cost:
+    Telecrystal: 5
+  categories:
+  - CrimsonSales
+  
+  #Элитный скафф Нюкеров ТЕСТ
+- type: listing
+  id: UplinkClothingOuterHardsuitElite
+  name: Элитный Скафандр Оперативников
+  description: Элитная версия кроваво-красного комбинезона с улучшенной броней и защитой от огня. Собственность Мародеров Горлекса.
+  productEntity: ClothingOuterHardsuitSyndieElite
+  cost:
+    Telecrystal: 10
+  categories:
+  - CrimsonSales
   
