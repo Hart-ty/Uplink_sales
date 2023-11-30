@@ -72,6 +72,7 @@
   categories:
   - CrimsonSales
   
+  
   #Элитный скафф Нюкеров ТЕСТ
 - type: listing
   id: UplinkClothingOuterHardsuitElite
@@ -83,3 +84,52 @@
   categories:
   - CrimsonSales
   
+
+  #Набор Боеприпасов 15 ТК
+- type: listing
+  id: UplinkAmmoBundle
+  name: uplink-ammo-bundle-name
+  description: uplink-ammo-bundle-desc
+  productEntity: ClothingBackpackDuffelSyndicateAmmoFilled
+  cost:
+    Telecrystal: 10
+  categories:
+  - CrimsonSales
+
+
+  #Набор с20r 17 ТК
+- type: listing
+  id: UplinkC20RBundle
+  name: uplink-c20r-bundle-name
+  description: uplink-c20r-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledSMG
+  cost:
+    Telecrystal: 14
+  categories:
+  - CrimsonSales
+  
+  
+  #Набор Бульдога  20 ТК
+- type: listing
+  id: UplinkBulldogBundle
+  name: uplink-buldog-bundle-name
+  description: uplink-buldog-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
+  cost:
+    Telecrystal: 16
+  categories:
+  - CrimsonSales
+  
+  
+  #Ноуслип 2ТК
+- type: listing
+  id: UplinkClothingNoSlipsShoes
+  name: uplink-clothing-no-slips-shoes-name
+  description: uplink-clothing-no-slips-shoes-desc
+  productEntity: ClothingShoesChameleonNoSlips
+  cost:
+    Telecrystal: 1
+  categories:
+  - CrimsonSales
