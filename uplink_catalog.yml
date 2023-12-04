@@ -108,7 +108,7 @@
     - Sales
     
     
- #Нечестные перчатки, 5 ТК, так как довольно имбалансные, в рамках Скидок.
+ #Нечестные перчатки, 5 ТК, так как довольно имбалансные, в рамках Скидок сделал их дороже.
 - type: listing
   id: uplinkRiggedBoxingGloves
   name: uplink-rigged-boxing-gloves-name
@@ -116,5 +116,94 @@
   productEntity: ClothingHandsGlovesBoxingRigged
   cost:
     Telecrystal: 7
+  categories:
+    - Sales
+
+
+
+  #Набор Хамелеона 4 ТК.
+- type: listing
+  id: UplinkChameleon
+  name: uplink-chameleon-name
+  description: uplink-chameleon-desc
+  productEntity: ClothingBackpackChameleonFill
+  icon: { sprite: /Textures/Clothing/Uniforms/Jumpsuit/rainbow.rsi, state: icon }
+  cost:
+    Telecrystal: 2
+  categories:
+    - Sales
+    
+    
+   #Подкрепление в виде MONKEY 8 ТК
+- type: listing
+  id: UplinkReinforcementRadioSyndicateMonkey
+  name: uplink-reinforcement-radio-monkey-name
+  description: uplink-reinforcement-radio-monkey-desc
+  productEntity: ReinforcementRadioSyndicateMonkey
+  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio }
+  cost:
+    Telecrystal: 5
+  categories:
+  - Sales
+  
+  
+  #Голоклоун 12 ТК
+- type: listing
+  id: UplinkHoloclownKit
+  name: uplink-holoclown-kit-name
+  description: uplink-holoclown-kit-desc
+  icon: { sprite: /Textures/Objects/Fun/figurines.rsi, state: holoclown }
+  productEntity: BoxHoloclown
+  cost:
+    Telecrystal: 18
+  categories:
+  - Sales
+  
+  
+  #Сигареты Интердайн 2 ТК.
+- type: listing
+  id: UplinkCigarettes
+  name: uplink-cigarettes-name
+  description: uplink-cigarettes-desc
+  productEntity: CigPackSyndicate
+  cost:
+    Telecrystal: 1
+  categories:
+  - Sales
+  
+  
+  #Ушки 26 ТК
+- type: listing
+  id: UplinkCatEars
+  name: uplink-cat-ears-name
+  description: uplink-cat-ears-desc
+  productEntity: ClothingHeadHatCatEars
+  cost:
+    Telecrystal: 20
+  categories:
+  - Sales
+  
+  
+  #Сигвей Синдиката 5 ТК
+- type: listing
+  id: UplinkSyndicateSegwayCrate
+  name: uplink-syndicate-segway-crate-name
+  description: uplink-syndicate-segway-crate-desc
+  icon: { sprite: /Textures/Objects/Vehicles/syndicatesegway.rsi, state: icon }
+  productEntity: CrateFunSyndicateSegway
+  cost:
+    Telecrystal: 2
+  categories:
+  - Sales
+  
+  
+  #Пингвин Гренвдёр 5 ТК.
+- type: listing
+  id: UplinkGrenadePenguin
+  name: Нуф-нуф
+  description: Здарова ублюдки, я ваш тамада новый
+  productEntity: MobGrenadePenguin
+  cost:
+    Telecrystal: 3
   categories:
     - Sales
